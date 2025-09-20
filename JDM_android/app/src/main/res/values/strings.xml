@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">JDM</string>
+    <string name="bar_name">JavaDownloadManger</string>
+    <string name="stop">停止下载</string>
+    <string name="start">开始下载</string>
+    <string name="progressbar">下载进度:</string>
+    <string name="nThreads">线程数:</string>
+    <string name="downloadUrl">下载链接:</string>
+    <string name="urlHint">粘贴下载链接</string>
+    <string name="fileName">文件名:</string>
+    <string name="fileNameHint">输入文件名</string>
+    <string-array name="nThreads">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+</resources>

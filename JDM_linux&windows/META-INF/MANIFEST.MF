@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Main-Class: Activity
+Class-Path: kotlin-stdlib-1.8.21.jar kotlin-stdlib-jdk7-1.8.21.jar swing
+ x-1.6.1.jar okhttp-4.12.0.jar annotations-13.0.jar okio-jvm-3.6.0.jar o
+ kio-3.6.0.jar filters-2.0.235.jar kotlin-stdlib-common-1.9.10.jar kotli
+ n-stdlib-jdk8-1.8.21.jar swing-worker-1.1.jar
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- 允许特定域名的 HTTP -->
+<!--    <domain-config cleartextTrafficPermitted="true">-->
+<!--        <domain includeSubdomains="true">c1.netmc.icu</domain>-->
+<!--    </domain-config>-->
+
+    <!-- 或允许所有 HTTP（不推荐） -->
+     <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

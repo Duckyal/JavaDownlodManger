@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact name="javaDownloadMannger:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/javaDownloadMannger_jar</output-path>
+    <root id="root">
+      <element id="archive" name="javaDownloadMannger.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="javaDownloadMannger" />
+      </element>
+      <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.8.21" />
+      <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.21" />
+      <element id="library" level="project" name="Maven: org.swinglabs:swingx:1.6.1" />
+      <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp:4.12.0" />
+      <element id="library" level="project" name="Maven: org.jetbrains:annotations:13.0" />
+      <element id="library" level="project" name="Maven: com.squareup.okio:okio-jvm:3.6.0" />
+      <element id="library" level="project" name="Maven: com.squareup.okio:okio:3.6.0" />
+      <element id="library" level="project" name="Maven: com.jhlabs:filters:2.0.235" />
+      <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10" />
+      <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21" />
+      <element id="library" level="project" name="Maven: org.swinglabs:swing-worker:1.1" />
+    </root>
+  </artifact>
+</component>
