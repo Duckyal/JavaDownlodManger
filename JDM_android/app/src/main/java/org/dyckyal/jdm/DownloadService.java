@@ -63,6 +63,7 @@ public class DownloadService extends JobIntentService {
         }
 
         @SuppressLint("DefaultLocale") NotificationCompat.Builder builder = new NotificationCompat.Builder(context, CHANNEL_ID)
+                .setSmallIcon(R.drawable.ic_download) // 必须设置 smallIcon
                 .setContentTitle("正在下载")
                 .setContentText(String.format("进度: %.2f%%", progress))
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT)
@@ -86,6 +87,7 @@ public class DownloadService extends JobIntentService {
         PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, notificationIntent, PendingIntent.FLAG_IMMUTABLE);
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context, CHANNEL_ID)
+                .setSmallIcon(R.drawable.ic_download_done) // 必须设置 smallIcon
                 .setContentTitle("下载完成")
                 .setContentText(fileName + " 已下载完成")
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT)
@@ -108,6 +110,7 @@ public class DownloadService extends JobIntentService {
 
         // 构建失败通知
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context, CHANNEL_ID)
+                .setSmallIcon(R.drawable.ic_error) // 必须设置 smallIcon
                 .setContentTitle("出现异常")
                 .setContentText("原因: " + reason)
                 .setPriority(NotificationCompat.PRIORITY_HIGH) // 失败通知优先级可以高一些

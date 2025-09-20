@@ -9,6 +9,7 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
+
 public class downloadThread extends Thread {
     private final LogManager logManager = LogManager.getInstance();
     private final int index;
@@ -63,6 +64,7 @@ public class downloadThread extends Thread {
                 } else {
                     if (!((downloadManger) listener).StoppedCause.equals("exit")) {
                         logManager.waring("下载线程" + index, String.format("出现异常，尝试第%s次重新下载", i + 1));
+                        logManager.debug("error", e.getMessage());
                     }
                 }
             }
